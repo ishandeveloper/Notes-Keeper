@@ -16,7 +16,7 @@ function Heading() {
             <div className="search">
               <div className="input-field">
                 <input id="search" type="search" required />
-                <label className="label-icon" for="search">
+                <label className="label-icon" htmlFor="search">
                   <i className="material-icons blue-text search-icon">search</i>
                 </label>
                 <i className="material-icons close-icon">close</i>
