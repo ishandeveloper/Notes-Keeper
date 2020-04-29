@@ -6,6 +6,10 @@
 .hero-text{
     font-size: 0.99em;  
 }
+.row{
+    padding:20px 10px;
+    min-height: calc(90vh - 74px);
+}
 .hero-icon{
     font-size: 1.25em;
 }
@@ -19,7 +23,7 @@ nav .brand-logo i.material-icons {
     font-size: 1.25em;
 }
 .page-footer{
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
