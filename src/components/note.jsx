@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import Card from './minors/card';
 
-function Note() {
-    
-    return <div>
-        <h1>Title</h1>
-        <p>Content</p>
+function Notes() {
+  return (
+    <div className="row">
+        <Card/>
     </div>
+  );
 }
 
-export default Note;
+export default Notes;
