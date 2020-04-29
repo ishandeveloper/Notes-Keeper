@@ -72,13 +72,13 @@ nav .brand-logo i.material-icons {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #64B5F6;
+    background:#2196F3;
     border-radius: 50px;
 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #64B5F6;
 
 }

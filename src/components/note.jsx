@@ -12,7 +12,7 @@ function Notes() {
         Integer vitae nibh sapien. Morbi tempus commodo erat id dictum."
       />
       <Card
-        title="First Note"
+        title="Second Note"
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et
         lorem facilisis, scelerisque ipsum vel, sodales lectus. Nunc
         rutrum et arcu quis ullamcorper. In hac habitasse platea dictumst.
@@ -20,7 +20,7 @@ function Notes() {
         Integer vitae nibh sapien. Morbi tempus commodo erat id dictum."
       />
       <Card
-        title="First Note"
+        title="Third Note"
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et
         lorem facilisis, scelerisque ipsum vel, sodales lectus. Nunc
         rutrum et arcu quis ullamcorper. In hac habitasse platea dictumst.
@@ -28,7 +28,7 @@ function Notes() {
         Integer vitae nibh sapien. Morbi tempus commodo erat id dictum."
       />
       <Card
-        title="First Note"
+        title="Fourth Note"
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et
         lorem facilisis, scelerisque ipsum vel, sodales lectus. Nunc
         rutrum et arcu quis ullamcorper. In hac habitasse platea dictumst.
@@ -36,7 +36,7 @@ function Notes() {
         Integer vitae nibh sapien. Morbi tempus commodo erat id dictum."
       />
       <Card
-        title="First Note"
+        title="Fifth Note"
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et
         lorem facilisis, scelerisque ipsum vel, sodales lectus. Nunc
         rutrum et arcu quis ullamcorper. "
