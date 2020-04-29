@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.logo {
+    padding: 0px 20px !important;
+}
+.hero-text{
+    font-size: 0.99em;  
+}
+.hero-icon{
+    font-size: 1.25em;
+}
+nav{
+    font-family: 'Poppins';
+}
+nav .brand-logo i,
+nav .brand-logo [class^="mdi-"],
+nav .brand-logo [class*="mdi-"],
+nav .brand-logo i.material-icons {
+    font-size: 1.25em;
+}
+.page-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
