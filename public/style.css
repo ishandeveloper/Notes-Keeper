@@ -57,3 +57,28 @@ nav .brand-logo i.material-icons {
     bottom: 0;
     width: 100%;
 }
+
+/* CUSTOM SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #64B5F6;
+    border-radius: 50px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+
+}
