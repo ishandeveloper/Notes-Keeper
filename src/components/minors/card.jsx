@@ -2,10 +2,10 @@ import React from 'react';
 
 function Card() {
     return <div>
-      <div class="col s12 m3">
-        <div class="card white lighten">
-          <div class="card-content black-text">
-            <span class="card-title">Title</span>
+      <div className="col s12 m3">
+        <div className="card white lighten">
+          <div className="card-content black-text">
+            <span className="card-title">Title</span>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et
               lorem facilisis, scelerisque ipsum vel, sodales lectus. Nunc
@@ -14,7 +14,7 @@ function Card() {
               Integer vitae nibh sapien. Morbi tempus commodo erat id dictum.
             </p>
           </div>
-          <div class="card-action"></div>
+          <div className="card-action"></div>
         </div>
       </div>
     </div>
