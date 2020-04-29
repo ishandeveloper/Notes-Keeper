@@ -13,6 +13,15 @@ function Heading() {
               <i className="material-icons">description</i>
               <span className="hero-text">Keeper</span>
             </a>
+            <div className="search">
+              <div className="input-field">
+                <input id="search" type="search" required />
+                <label className="label-icon" for="search">
+                  <i className="material-icons blue-text search-icon">search</i>
+                </label>
+                <i className="material-icons close-icon">close</i>
+              </div>
+              </div>
             <ul className="white blue-text text-darken-2 right hide-on-med-and-down">
               <li>
                 <a className="blue-text text-darken-2" href="#refresh">
