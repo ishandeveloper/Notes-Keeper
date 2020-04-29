@@ -16,6 +16,9 @@
     background: #f1f3f4;
     
 }
+.text-justify{
+    text-align: justify;
+}
 .search-icon{
     height: 100%;
     font-size: 2em!important;
