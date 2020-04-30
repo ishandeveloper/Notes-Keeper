@@ -21,7 +21,7 @@ function Heading() {
                 </label>
                 <i className="material-icons close-icon">close</i>
               </div>
-              </div>
+            </div>
             <ul className="white blue-text text-darken-2 right hide-on-med-and-down">
               <li>
                 <a className="blue-text text-darken-2" href="#refresh">
