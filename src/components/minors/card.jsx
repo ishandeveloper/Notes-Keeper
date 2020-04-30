@@ -1,19 +1,29 @@
-import React from 'react';
+import React from "react";
+
+function createCard(content) {
+  return (
+    <Card
+      key={content.id}
+      title={content.title}
+      content={content.note}
+    />
+  );
+}
 
 function Card(props) {
-    return <div>
+  return (
+    <div>
       <div className="col s12 m3">
         <div className="card white lighten">
           <div className="card-content black-text">
             <span className="card-title">{props.title}</span>
-            <p className="text-justify">
-              {props.content}
-            </p>
+            <p className="text-justify">{props.content}</p>
           </div>
           <div className="card-action"></div>
         </div>
       </div>
     </div>
+  );
 }
 
-export default Card;
+export default createCard;
