@@ -1,15 +1,26 @@
 import React from "react";
 
-function createCard(content,deletenote) {
-  return <Card del={deletenote} id={content.id} id={content.id} key={content.id} title={content.title} content={content.note} />;
+function createCard(content, deletenote) {
+  if (content.note !== "NULL") {
+    return (
+      <Card
+        del={deletenote}
+        id={content.id}
+        key={content.id}
+        title={content.title}
+        content={content.note}
+      />
+    );
+  }
 }
 
 function Card(props) {
-
-  function taskDelete() {
-    props.del(props.id)
+  function copyToClipboard() {
+    navigator.clipboard.writeText(props.content);
   }
-
+  function taskDelete() {
+    props.del(props.id);
+  }
   return (
     <div>
       <div className="col s12 m3">
@@ -28,7 +39,8 @@ function Card(props) {
               className="blue-text text-lighten-3"
               href="#"
             >
-              <i onClick={taskDelete}
+              <i
+                onClick={taskDelete}
                 className="small material-icons tooltipped"
                 data-position="top"
                 data-tooltip="Delete"
@@ -40,6 +52,7 @@ function Card(props) {
                 className="small material-icons tooltipped"
                 data-position="top"
                 data-tooltip="Copy To Clipboard"
+                onClick={copyToClipboard}
               >
                 file_copy
               </i>
