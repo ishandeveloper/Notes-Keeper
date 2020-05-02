@@ -1,6 +1,9 @@
 import React, {useState} from "react";
 
 function NewNote(props) {
+
+  const [typing, settyping] = useState(false);
+
   const [textareaStyle, settextareaStyle] = React.useState({
     textAlign: "justfiy",
   });
@@ -24,6 +27,7 @@ function NewNote(props) {
       settitle(e.target.value);
   }
   function contentchanged(e) {
+    settyping(true);
     setcontent(e.target.value);
 }
   return (
@@ -34,12 +38,13 @@ function NewNote(props) {
             <span className="card-title"></span>
           </div>
           <div className="card-content">
-            <div className="input-title">
+            {typing?<div className="input-title">
               <input id="email" type="note" onChange={titlechanged} value={title} placeholder="Title" />
-            </div>
+            </div>:null}
             <p>
               <textarea
               value={content}
+              onClick={contentchanged}
               onChange={contentchanged}
                 style={textareaStyle}
                 onInput={textareaHeight}
@@ -49,9 +54,9 @@ function NewNote(props) {
               ></textarea>
             </p>
           </div>
-          <a onClick={newnoteadded} className="btn-floating btn-large halfway-fab waves-effect waves-dark blue">
+          {typing?<a onClick={newnoteadded} className="btn-floating btn-large halfway-fab waves-effect waves-dark blue">
             <i className="material-icons">add</i>
-          </a>
+          </a>:null}
         </div>
       </div>
     </div>
