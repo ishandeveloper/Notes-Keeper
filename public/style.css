@@ -16,8 +16,8 @@
     /* margin-left:15%!important; */
     margin: 10px 18% !important;
     background: #f1f3f4;
-
 }
+
 input[type=note] {
     background-color: transparent;
     border: none;
@@ -28,8 +28,9 @@ input[type=note] {
     font-size: 1.5em;
     margin: 0 0 8px 0;
     padding: 0;
-    border-bottom:0px!important;
+    border-bottom: 0px !important;
 }
+
 .text-justify {
     text-align: justify;
 }
@@ -54,20 +55,23 @@ input[type=note] {
     padding: 20px 10px;
     min-height: calc(90vh - 74px);
 }
-.newnote{
-    height: auto!important;
+
+.newnote {
+    height: auto !important;
     margin-left: auto;
     margin-right: auto;
-    margin-top:50px;
+    margin-top: 50px;
     margin-bottom: 50px;
     width: 50%;
 }
-.materialize-textarea{
-    font-size: 1.2em!important;
-    border-bottom: 0px!important;
-    transition: none!important;
-    box-shadow: none!important;
+
+.materialize-textarea {
+    font-size: 1.2em !important;
+    border-bottom: 0px !important;
+    transition: none !important;
+    box-shadow: none !important;
 }
+
 .hero-icon {
     font-size: 1.25em;
 }
@@ -82,6 +86,20 @@ nav .brand-logo [class^="mdi-"],
 nav .brand-logo [class*="mdi-"],
 nav .brand-logo i.material-icons {
     font-size: 1.25em;
+}
+
+.card {
+    transition: all 1s !important;
+}
+
+.card-content {
+    transition: all 1s !important;
+}
+
+.input-title {
+
+    transition: all ease-in-out 1s !important;
+
 }
 
 .page-footer {
@@ -117,21 +135,23 @@ nav .brand-logo i.material-icons {
 
 
 @media only screen and (max-width: 768px) {
-    .newnote{
+    .newnote {
         width: 80%;
     }
+
     .m3 {
-        width: 50%!important;
+        width: 50% !important;
         min-width: 50% !important;
     }
 }
 
 @media only screen and (max-width: 1072px) {
 
-    .m3{
-        min-width: 33.333333%!important;
+    .m3 {
+        min-width: 33.333333% !important;
     }
 }
+
 @media only screen and (max-width: 600px) {
     .newnote {
         width: 80%;
