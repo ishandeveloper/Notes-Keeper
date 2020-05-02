@@ -24,7 +24,7 @@ function Heading() {
             </div>
             <ul className="white blue-text text-darken-2 right hide-on-med-and-down">
               <li>
-                <a className="blue-text text-darken-2" href="#refresh">
+                <a className="blue-text text-darken-2" href="/">
                   <i className="material-icons">refresh</i>
                 </a>
               </li>
