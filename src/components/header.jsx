@@ -11,7 +11,7 @@ function Heading() {
               className="white blue-text text-darken-2 brand-logo logo"
             >
               <i className="material-icons">description</i>
-              <span className="hero-text">Keeper</span>
+              <span className="hero-text">Keep</span>
             </a>
             <div className="search">
               <div className="input-field">
