@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.com/ishandeveloper/Notes-Keeper.svg)](http://hits.dwyl.com/ishandeveloper/Notes-Keeper)
+
 <img src="https://github.com/ishandeveloper/Notes-Keeper/blob/master/screenshots/1.PNG?raw=false" width="100%">
 
 # NOTES KEEPER
