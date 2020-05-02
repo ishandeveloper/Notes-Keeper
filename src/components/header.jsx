@@ -29,8 +29,8 @@ function Heading() {
                 </a>
               </li>
               <li>
-                <a className="blue-text text-darken-2" href="#about">
-                  <i className="material-icons">info</i>
+                <a href="https://github.com/ishandeveloper/Keep-Notes" className="blue-text text-darken-2">
+                  <i className="material-icons">code</i>
                 </a>
               </li>
             </ul>
