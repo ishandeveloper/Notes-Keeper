@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^10.3.0",
+    "@testing-library/react": "^10.4.6",
     "@testing-library/user-event": "^10.4.0",
     "local-storage": "^2.0.0",
     "materialize-css": "^1.0.0-rc.2",
